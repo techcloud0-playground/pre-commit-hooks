@@ -1,0 +1,9 @@
+---
+repos:
+  - repo: https://github.com/techcloud0/pre-commit-hooks
+    rev: v1.5.4
+    hooks:
+      # keep-sorted start
+      - id: keep-sorted
+      - id: yamllint
+      # keep-sorted end

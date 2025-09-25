@@ -1,0 +1,100 @@
+# keep-sorted start
+- id: keep-sorted
+  name: keep-sorted
+  entry: keep-sorted
+  language: system
+  description: |
+    A language-agnostic formatter that sorts lines between two markers in a larger file.
+    Install keep-sorted in order to use this hook.
+  stages: [pre-commit]
+- id: kustomize-build
+  name: kustomize-build
+  entry: kustomize build
+  language: system
+  files: '\.(yaml|yml)$'
+  pass_filenames: false
+  description: |
+    Customize raw, template-free YAML files for multiple purposes, leaving the original YAML untouched and usable as is.
+    Install kubectl in order to use this hook.
+  stages: [pre-commit]
+- id: shellcheck
+  name: shellcheck
+  entry: shellcheck
+  language: system
+  files: \.(bash|sh)$
+  types: ["file", "shell", "text"]
+  pass_filenames: true
+  description: |
+    A static analysis tool for shell scripts.
+    Install shellcheck in order to use this hook.
+  stages: [pre-commit]
+- id: shfmt
+  name: shfmt
+  entry: shfmt
+  language: system
+  files: \.(bash|sh)$
+  types: ["file", "shell", "text"]
+  pass_filenames: true
+  args:
+    - --indent
+    - '2'
+    - --space-redirects
+    - --diff
+    - --simplify
+    - --list
+    - --write
+  description: |
+    A shell parser, formatter, and interpreter.
+    Install shfmt in order to use this hook.
+  stages: [pre-commit]
+- id: terraform-fmt
+  name: terraform-fmt
+  entry: terraform fmt
+  language: system
+  files: '\.(tf|tfvars)$'
+  pass_filenames: true
+  description: |
+    Format Terraform files.
+    Install terraform in order to use this hook.
+  stages: [pre-commit]
+- id: terraform-init
+  name: terraform-init
+  entry: bash -c 'terraform -chdir="${1:-.}" init -backend=false' --
+  language: system
+  files: '\.(tf|tfvars)$'
+  pass_filenames: false
+  description: |
+    Initialize Terraform working directory.
+    Install terraform in order to use this hook.
+  stages: [pre-commit]
+- id: terraform-validate
+  name: terraform-validate
+  entry: bash -c 'terraform -chdir="${1:-.}" validate' --
+  language: system
+  files: '\.(tf|tfvars)$'
+  pass_filenames: false
+  description: |
+    Validate Terraform files.
+    Install terraform in order to use this hook.
+  stages: [pre-commit]
+- id: tflint
+  name: tflint
+  entry: tflint
+  language: system
+  files: '\.(tf|tfvars)$'
+  pass_filenames: true
+  description: |
+    Lint Terraform files.
+    Install tflint in order to use this hook.
+  stages: [pre-commit]
+- id: yamllint
+  name: yamllint
+  entry: yamllint
+  language: system
+  files: '\.(yaml|yml)$'
+  pass_filenames: true
+  description: |
+    Lint YAML files.
+    Install yamllint in order to use this hook.
+  stages: [pre-commit]
+# keep-sorted end

@@ -1,0 +1,762 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "direnv": {
+        "pkg-path": "direnv"
+      },
+      "keep-sorted": {
+        "pkg-path": "keep-sorted"
+      },
+      "pre-commit": {
+        "pkg-path": "pre-commit"
+      },
+      "shellcheck": {
+        "pkg-path": "shellcheck"
+      },
+      "shfmt": {
+        "pkg-path": "shfmt"
+      },
+      "yamllint": {
+        "pkg-path": "yamllint"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ]
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "direnv",
+      "broken": false,
+      "derivation": "/nix/store/yqjs353c5m4vn504fh0angzmvd4zqzzb-direnv-2.37.1.drv",
+      "description": "Shell extension that manages your environment",
+      "install_id": "direnv",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "direnv-2.37.1",
+      "pname": "direnv",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:28:52.661510Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.37.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/ra317h53qg2d53vpgjwqpnfjxa2jx72p-direnv-2.37.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "direnv",
+      "broken": false,
+      "derivation": "/nix/store/hqb3drpfq6i73k3p9qy8kp5jj24pd83v-direnv-2.37.1.drv",
+      "description": "Shell extension that manages your environment",
+      "install_id": "direnv",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "direnv-2.37.1",
+      "pname": "direnv",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:37:16.155845Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.37.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/r8pyldjahifcya3dp782iia1id7bvfar-direnv-2.37.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "direnv",
+      "broken": false,
+      "derivation": "/nix/store/knsp22h8jcps2jjz32irpn11npzwvr1h-direnv-2.37.1.drv",
+      "description": "Shell extension that manages your environment",
+      "install_id": "direnv",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "direnv-2.37.1",
+      "pname": "direnv",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:45:25.715610Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.37.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9hch9w87dkf7r7rffxdq2zgia7qdkb2i-direnv-2.37.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "direnv",
+      "broken": false,
+      "derivation": "/nix/store/qy2mncd4ir99di1s9909wyarh5hk4qpr-direnv-2.37.1.drv",
+      "description": "Shell extension that manages your environment",
+      "install_id": "direnv",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "direnv-2.37.1",
+      "pname": "direnv",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:52:52.869471Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.37.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/bdf516vl81c2zcgizlv7hpig5yqfm0bz-direnv-2.37.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "keep-sorted",
+      "broken": false,
+      "derivation": "/nix/store/f7fi4fl9qbxz9g50laj8w51q2x5ils16-keep-sorted-0.7.1.drv",
+      "description": "Language-agnostic formatter that sorts lines between two markers in a larger file",
+      "install_id": "keep-sorted",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "keep-sorted-0.7.1",
+      "pname": "keep-sorted",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:28:54.022363Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.7.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/v30ppg46yl69lx6g3nrar9xpmfagvxcg-keep-sorted-0.7.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "keep-sorted",
+      "broken": false,
+      "derivation": "/nix/store/psxxdc8k87qhyzqh1sa4p6a2rbz432nn-keep-sorted-0.7.1.drv",
+      "description": "Language-agnostic formatter that sorts lines between two markers in a larger file",
+      "install_id": "keep-sorted",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "keep-sorted-0.7.1",
+      "pname": "keep-sorted",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:37:19.701907Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.7.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/4j83s55phjdx7bbr8zivyz7dbymmixxh-keep-sorted-0.7.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "keep-sorted",
+      "broken": false,
+      "derivation": "/nix/store/kddiqnccmpnzqn2r0z46l7gv8r232dj3-keep-sorted-0.7.1.drv",
+      "description": "Language-agnostic formatter that sorts lines between two markers in a larger file",
+      "install_id": "keep-sorted",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "keep-sorted-0.7.1",
+      "pname": "keep-sorted",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:45:27.114202Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.7.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hx95gg687f81fpw9h195sv1n7kx1z3r2-keep-sorted-0.7.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "keep-sorted",
+      "broken": false,
+      "derivation": "/nix/store/bskris3i0wp5g2hjjj7g1i5k77z372c0-keep-sorted-0.7.1.drv",
+      "description": "Language-agnostic formatter that sorts lines between two markers in a larger file",
+      "install_id": "keep-sorted",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "keep-sorted-0.7.1",
+      "pname": "keep-sorted",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:52:56.718308Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.7.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1ylpv3f6bl4xvpyw5dc7vy665w6ji8vm-keep-sorted-0.7.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pre-commit",
+      "broken": false,
+      "derivation": "/nix/store/c997jjs7qi9ma3xpj52hjs9d2jwp0nxv-pre-commit-4.3.0.drv",
+      "description": "Framework for managing and maintaining multi-language pre-commit hooks",
+      "install_id": "pre-commit",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "pre-commit-4.3.0",
+      "pname": "pre-commit",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:29:04.857506Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.3.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/k7vnzm3p7parfi9svhqkm65xyab9b9mx-pre-commit-4.3.0-dist",
+        "out": "/nix/store/s8p6h0h1rdp0f1cbxp50pls9z8yfh2s1-pre-commit-4.3.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pre-commit",
+      "broken": false,
+      "derivation": "/nix/store/xg8503p4dxz6kdidmzjpki6h2z19frh9-pre-commit-4.3.0.drv",
+      "description": "Framework for managing and maintaining multi-language pre-commit hooks",
+      "install_id": "pre-commit",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "pre-commit-4.3.0",
+      "pname": "pre-commit",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:37:42.396930Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.3.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/wxfhc02vdni6l3rb0fdrknsr2vlkafhf-pre-commit-4.3.0-dist",
+        "out": "/nix/store/f0wq9ag9jpfxcd981ajzas4mwrfy6iz4-pre-commit-4.3.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pre-commit",
+      "broken": false,
+      "derivation": "/nix/store/8m5gxr28qmic4mmr9lrzfjc7255hdv07-pre-commit-4.3.0.drv",
+      "description": "Framework for managing and maintaining multi-language pre-commit hooks",
+      "install_id": "pre-commit",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "pre-commit-4.3.0",
+      "pname": "pre-commit",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:45:38.281871Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.3.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/01zd7p6chr5lclb398rgxfz56j72n4vp-pre-commit-4.3.0-dist",
+        "out": "/nix/store/ml1jyr1r60fb0mg57wafk0y8s5jvhl56-pre-commit-4.3.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pre-commit",
+      "broken": false,
+      "derivation": "/nix/store/nqpwxzlfpa90g4d9jqg1jbk2pkl4lz0d-pre-commit-4.3.0.drv",
+      "description": "Framework for managing and maintaining multi-language pre-commit hooks",
+      "install_id": "pre-commit",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "pre-commit-4.3.0",
+      "pname": "pre-commit",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:53:20.503410Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.3.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/dkvyq6j563c5rhrln3m3q6zhp05wamcz-pre-commit-4.3.0-dist",
+        "out": "/nix/store/2bpaa9dbz3qfwxmw2x8556p2d0f9f811-pre-commit-4.3.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "shellcheck",
+      "broken": false,
+      "derivation": "/nix/store/cmvxpssll2768yslzcyy58mkdpzdi5y1-shellcheck-0.10.0.drv",
+      "description": "Shell script analysis tool",
+      "install_id": "shellcheck",
+      "license": "GPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "shellcheck-0.10.0",
+      "pname": "shellcheck",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:29:49.578671Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.10.0",
+      "outputs_to_install": [
+        "bin",
+        "doc",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/1dd0qs86kydq3qhm2ijjks2wywal9gck-shellcheck-0.10.0-bin",
+        "doc": "/nix/store/qigcmgzxvkn8cz5dcz2641plfkdmcpdl-shellcheck-0.10.0-doc",
+        "man": "/nix/store/q2860dhsmjcflhgl98aipf4s0hb33r52-shellcheck-0.10.0-man",
+        "out": "/nix/store/bq17pak9l0r39k060w54rlzka7j402l2-shellcheck-0.10.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "shellcheck",
+      "broken": false,
+      "derivation": "/nix/store/qhznmvpx71mlngbrv4gnlpbw25wnmq92-shellcheck-0.10.0.drv",
+      "description": "Shell script analysis tool",
+      "install_id": "shellcheck",
+      "license": "GPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "shellcheck-0.10.0",
+      "pname": "shellcheck",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:38:47.398309Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.10.0",
+      "outputs_to_install": [
+        "bin",
+        "doc",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/z4fpdiifa0hzq1h70zwlhdh9vd42ip6f-shellcheck-0.10.0-bin",
+        "doc": "/nix/store/5rlzc0xggskn5lpl7x33zcjp8yp2nklq-shellcheck-0.10.0-doc",
+        "man": "/nix/store/n6hcjvp8w8zggvh6i2ljqrfsyiz3lwml-shellcheck-0.10.0-man",
+        "out": "/nix/store/n2bj7i7ah9g2bh0dk6xp1r6iigrcyplg-shellcheck-0.10.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "shellcheck",
+      "broken": false,
+      "derivation": "/nix/store/6gwh67szkxcz3r7l5c7k81x9g9dadh29-shellcheck-0.10.0.drv",
+      "description": "Shell script analysis tool",
+      "install_id": "shellcheck",
+      "license": "GPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "shellcheck-0.10.0",
+      "pname": "shellcheck",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:46:26.353368Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.10.0",
+      "outputs_to_install": [
+        "bin",
+        "doc",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/pqjyyqbg8x3bvbs1nz9nmyjhmx3iqsiv-shellcheck-0.10.0-bin",
+        "doc": "/nix/store/bfywp2w6lzdfpzm8m17bi7civ613s5i8-shellcheck-0.10.0-doc",
+        "man": "/nix/store/m6wy8gcvk8wcwfnnc5ghjvfrz9g829a0-shellcheck-0.10.0-man",
+        "out": "/nix/store/3n3s8jdsfz10p3kvsyz46cf2raxzkc5h-shellcheck-0.10.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "shellcheck",
+      "broken": false,
+      "derivation": "/nix/store/4zh7vfvcn2lvx0yfmfbzdwbbnvcyz9hb-shellcheck-0.10.0.drv",
+      "description": "Shell script analysis tool",
+      "install_id": "shellcheck",
+      "license": "GPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "shellcheck-0.10.0",
+      "pname": "shellcheck",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:54:24.307742Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.10.0",
+      "outputs_to_install": [
+        "bin",
+        "doc",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/v972v9m1490isa3nnqxbsfhb97x8jk2q-shellcheck-0.10.0-bin",
+        "doc": "/nix/store/yfgk2lwhs67y818c7g359g8si7w2qh2f-shellcheck-0.10.0-doc",
+        "man": "/nix/store/ddcrqfkyjds7zh50gv7rc00yn10jxwpg-shellcheck-0.10.0-man",
+        "out": "/nix/store/wqzg4afh0wsj3b9xfdk298487a096jnb-shellcheck-0.10.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "shfmt",
+      "broken": false,
+      "derivation": "/nix/store/8vr50np6frkj9gm11bvij6zy437lsd29-shfmt-3.12.0.drv",
+      "description": "Shell parser and formatter",
+      "install_id": "shfmt",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "shfmt-3.12.0",
+      "pname": "shfmt",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:29:49.610407Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/c85ys0kn6wkpi242fim2mh8fmpn21x8q-shfmt-3.12.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "shfmt",
+      "broken": false,
+      "derivation": "/nix/store/50ffqxyhcj7x93ckji2nyymwrim235ch-shfmt-3.12.0.drv",
+      "description": "Shell parser and formatter",
+      "install_id": "shfmt",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "shfmt-3.12.0",
+      "pname": "shfmt",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:38:47.446478Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/dsxbv6l6qqbjkf36csx1lx0izjw4c5h7-shfmt-3.12.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "shfmt",
+      "broken": false,
+      "derivation": "/nix/store/5cmiapf17h9aa1j4zf1pchj94y527mfv-shfmt-3.12.0.drv",
+      "description": "Shell parser and formatter",
+      "install_id": "shfmt",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "shfmt-3.12.0",
+      "pname": "shfmt",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:46:26.387080Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/a8363wq5ds34q91qszcps0wninxw0ad9-shfmt-3.12.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "shfmt",
+      "broken": false,
+      "derivation": "/nix/store/abi3pc6hkd21k3z5v21vqazzmw3fk11x-shfmt-3.12.0.drv",
+      "description": "Shell parser and formatter",
+      "install_id": "shfmt",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "shfmt-3.12.0",
+      "pname": "shfmt",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:54:24.353796Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/v01wv7yrlqkhkwg85apsf1d91hffzd6s-shfmt-3.12.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "yamllint",
+      "broken": false,
+      "derivation": "/nix/store/7pr3bw3q7f68a8wblsn0qx0g63907j0d-python3.13-yamllint-1.37.1.drv",
+      "description": "Linter for YAML files",
+      "install_id": "yamllint",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "python3.13-yamllint-1.37.1",
+      "pname": "yamllint",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:30:24.811906Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.37.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/1wcinvjd2dgrd6zbzsgbhbyq48yaq5k1-python3.13-yamllint-1.37.1-dist",
+        "out": "/nix/store/sssgl4cvnwdy1zz1isn34awxmdpgs14c-python3.13-yamllint-1.37.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "yamllint",
+      "broken": false,
+      "derivation": "/nix/store/xxhcg9mpdj6zspwkn0zipaz5qjk6l0vf-python3.13-yamllint-1.37.1.drv",
+      "description": "Linter for YAML files",
+      "install_id": "yamllint",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "python3.13-yamllint-1.37.1",
+      "pname": "yamllint",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:39:38.712176Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.37.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/5wz7srpj8wxb5888qnz1ravq4rl97s9a-python3.13-yamllint-1.37.1-dist",
+        "out": "/nix/store/qy2xkp8sv2x4j0zq1s5cq7s3xpr1p1si-python3.13-yamllint-1.37.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "yamllint",
+      "broken": false,
+      "derivation": "/nix/store/ggv6xxy5jkwggam0jvdscbyqdpi6jxsx-python3.13-yamllint-1.37.1.drv",
+      "description": "Linter for YAML files",
+      "install_id": "yamllint",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "python3.13-yamllint-1.37.1",
+      "pname": "yamllint",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:47:05.738271Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.37.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/px9vxcbmkyr17v9yz7j56w33a985qnmz-python3.13-yamllint-1.37.1-dist",
+        "out": "/nix/store/k413gfdrs2mc5cwrr48nwfymjvfg5kd7-python3.13-yamllint-1.37.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "yamllint",
+      "broken": false,
+      "derivation": "/nix/store/1p1snf2j559k39v9r22kxw6apvqxj7k4-python3.13-yamllint-1.37.1.drv",
+      "description": "Linter for YAML files",
+      "install_id": "yamllint",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "python3.13-yamllint-1.37.1",
+      "pname": "yamllint",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:55:14.792892Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.37.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/by9gscrb8nxzv7lzw4zrjkicqlws93wc-python3.13-yamllint-1.37.1-dist",
+        "out": "/nix/store/7c0l16wswfz76q94ql6gp01h45z22vx5-python3.13-yamllint-1.37.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
