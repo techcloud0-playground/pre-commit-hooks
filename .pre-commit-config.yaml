@@ -1,0 +1,9 @@
+---
+repos:
+  - repo: .
+    rev: main
+    hooks:
+      # keep-sorted start
+      - id: keep-sorted
+      - id: yamllint
+      # keep-sorted end
